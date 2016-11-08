@@ -60,7 +60,7 @@ public class IndexResource implements RequestHandler<ByteBuf, ByteBuf>{
                             e.printStackTrace();
                         }
                         response.writeString("<html><head><style>body{text-align:center;font-family:'Lucida Grande'}</style></head><body><h2>Example Spinnaker Application</h2><h3>Instance Id " + instanceId + "</h3><h3>$USERDATA ENV VAR: " + userdata + "</h3></body></html>");
-			response.writeString("Hello, birds!");
+			response.writeString("Hello, orderbird!");
                         return response.close();
                     }
                 });
